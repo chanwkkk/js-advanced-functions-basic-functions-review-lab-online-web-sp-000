@@ -22,12 +22,10 @@ Calculator.divide = (a,b)=>{return a/b}
 function actionApplyer(int,array){
   if (array.length === 0){return 0}
   else {
-
       let a = int
       for (let i = 0; i < ray.length; i++ ){
         a = ray[i](a)
       }
       return a
-
   }
 }
