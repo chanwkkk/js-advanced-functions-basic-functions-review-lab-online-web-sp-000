@@ -23,8 +23,8 @@ function actionApplyer(int,array){
   if (array.length === 0){return 0}
   else {
       let a = int
-      for (let i = 0; i < ray.length; i++ ){
-        a = ray[i](a)
+      for (let i = 0; i < array.length; i++ ){
+        a = array[i](a)
       }
       return a
   }
